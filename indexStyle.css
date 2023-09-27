@@ -1,0 +1,108 @@
+
+
+@media (max-width: 800px) {
+
+    .containerFooter {
+        display: inline-table;
+        flex-direction: column;
+    }
+
+    .containerFooter div {
+        align-items: center;
+        margin-bottom: 1rem;
+
+    }
+
+    .card .text-bg-dark {
+        margin-top: 10rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 15rem;
+        margin-top: 5rem;
+        margin-right: 0rem !important;
+    }
+
+    .container button {
+        margin-bottom: 1rem;
+    }
+
+    .container p {
+        font-size: 1rem !important;
+
+    }
+
+
+}
+
+
+.textoBa {
+    text-align: right;
+    margin-top: 17vw; 
+    margin-right: 10vh;
+    width: 43rem;
+}
+
+#imgBa {
+    height: 40rem;
+    filter: brightness(0.6);
+}
+
+.botonTicket {
+    background-color: #29A744 !important;
+    margin-left: 0.7vw;
+}
+
+.textoColorBlanco {
+    color: white !important;
+    background-color: #17A2B7;
+}
+
+.center {
+    justify-content: center !important;
+}
+
+.textoOrador {
+    font-size: small;
+    justify-content: center;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-bottom: -0.2rem;
+}
+
+.cardSpacing {
+    margin-right: 1.5rem;
+}
+
+.tamanioTextoCardCaption {
+    font-size: smaller;
+}
+
+.cardBgColor {
+    background-color: #353A40;
+}
+
+.subrayado {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+
+}
+
+.colorEnviar {
+    background-color: #96C93E;
+    border: none;
+}
+
+.colorEnviar:hover {
+    background-color: #29A744;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #1B3743, #1F5271);
+    min-height: 7vw;
+}
+
