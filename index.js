@@ -93,34 +93,6 @@ function validarTexto(texto) {
 
 
 
-// let nombreInput = document.getElementById("nombre"); 
-// let apellidoInput = document.getElementById("apellido"); 
-
-
-
-// nombreInput.addEventListener("input", function(event) {
-
-//     let nombreUsuario = event.target.value; 
-//     let alfabetos = /^[A-Za-zÁÉÍÓÚÑáéíóúñ]+$/u;
-
-//     if (!alfabetos.test(nombreUsuario)) {
-
-//         nombreInput.classList.add('is-invalid'); 
-//     } 
-
-// }); 
-
-// apellidoInput.addEventListener("input", function(event) {
-
-//     let apellidoUsuario = event.target.value; 
-//     let alfabetos = /^[A-Za-zÁÉÍÓÚÑáéíóúñ]+$/u;
-
-//     if (!alfabetos.test(apellidoUsuario)) {
-//         apellidoInput.classList.add('is-invalid'); 
-//     }
-
-// })
-
 
 
 
