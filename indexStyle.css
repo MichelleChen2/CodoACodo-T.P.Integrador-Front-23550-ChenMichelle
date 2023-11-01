@@ -1,6 +1,20 @@
 
+@media (max-width: 700px) {
 
-@media (max-width: 800px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 15rem;
+        margin-top: 5rem;
+        margin-right: 0rem !important;
+    }
+
+
+}
+
+@media (max-width: 850px) {
+
 
     .containerFooter {
         display: inline-table;
@@ -17,13 +31,6 @@
         margin-top: 10rem;
     }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        width: 15rem;
-        margin-top: 5rem;
-        margin-right: 0rem !important;
-    }
 
     .container button {
         margin-bottom: 1rem;
@@ -34,6 +41,17 @@
 
     }
 
+    .containerFooter .row .mb-3 .center .col-3 {
+        width: 3rem;
+    }
+
+    #totalAPagar {
+        width: 10rem !important;
+    }
+
+    #buttonsEntrega {
+        margin-left: 25%;
+    }
 
 }
 
@@ -99,10 +117,19 @@
     background-color: #29A744;
 }
 
+.buttonBorrar {
+    margin-right: 0;
+}
+
+.buttonResumen {
+    margin-left: 0;
+}
+
 footer {
     display: flex;
     justify-content: center;
     background: linear-gradient(to right, #1B3743, #1F5271);
     min-height: 7vw;
 }
+
 
